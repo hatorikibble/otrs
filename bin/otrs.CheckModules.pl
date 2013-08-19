@@ -144,6 +144,10 @@ my @NeededModules = (
             },
         ],
     },
+   {
+        Module   => 'IO::Interactive',
+        Required => 1,
+    },
     {
         Module   => 'IO::Scalar',
         Required => 1,
